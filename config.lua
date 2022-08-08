@@ -17,38 +17,38 @@ Config.LicenseRank = 2
 Config.UseTarget = GetConvar('UseTarget', 'false') == 'true'
 Config.Locations = {
     ["duty"] = {
-        [1] = vector3(440.085, -974.924, 30.689),
+        [1] = vector3(441.32, -981.77, 30.69),
         [2] = vector3(-449.811, 6012.909, 31.815),
     },
     ["vehicle"] = {
-        [1] = vector4(448.159, -1017.41, 28.562, 90.654),
-        [2] = vector4(471.13, -1024.05, 28.17, 274.5),
-        [3] = vector4(-455.39, 6002.02, 31.34, 87.93),
+        [1] = vector4(435.52, -988.43, 16.7, 292.1),
+        [2] = vector4(435.52, -988.43, 16.7, 292.1),
+        [3] = vector4(435.52, -988.43, 16.7, 292.1),
     },
     ["stash"] = {
-        [1] = vector3(453.075, -980.124, 30.889),
+        [1] = vector3(463.28, -985.15, 30.73),
     },
     ["impound"] = {
         [1] = vector4(436.68, -1007.42, 27.32, 180.0),
         [2] = vector4(-436.14, 5982.63, 31.34, 136.0),
     },
     ["helicopter"] = {
-        [1] = vector4(449.168, -981.325, 43.691, 87.234),
+        [1] = vector4(449.45, -981.44, 43.69, 73.58),
         [2] = vector4(-475.43, 5988.353, 31.716, 31.34),
     },
     ["armory"] = {
-        [1] = vector3(462.23, -981.12, 30.68),
+        [1] = vector3(482.47, -995.84, 30.69),
     },
     ["trash"] = {
         [1] = vector3(439.0907, -976.746, 30.776),
     },
     ["fingerprint"] = {
-        [1] = vector3(460.9667, -989.180, 24.92),
+        [1] = vector3(473.67, -1013.41, 26.27),
     },
     ["evidence"] = {
-        [1] = vector3(442.1722, -996.067, 30.689),
-        [2] = vector3(451.7031, -973.232, 30.689),
-        [3] = vector3(455.1456, -985.462, 30.689),
+        [1] = vector3(475.0700, -996.920, 26.270),
+        [2] = vector3(472.7600, -997.450, 26.270),
+        [3] = vector3(472.0200, -992.100, 26.270),
     },
     ["stations"] = {
         [1] = {label = "Police Station", coords = vector4(428.23, -984.28, 29.76, 3.5)},
@@ -104,59 +104,78 @@ Config.SecurityCameras = {
 Config.AuthorizedVehicles = {
 	-- Grade 0
 	[0] = {
-		["police"] = "Police Car 1",
-		["police2"] = "Police Car 2",
+		["scpd1"] = "Crown Vic",
+	--[[]	["scpd3"] = "Police Car 2",
 		["police3"] = "Police Car 3",
 		["police4"] = "Police Car 4",
 		["policeb"] = "Police Car 5",
 		["policet"] = "Police Car 6",
 		["sheriff"] = "Sheriff Car 1",
 		["sheriff2"] = "Sheriff Car 2",
+        ]]--
 	},
 	-- Grade 1
 	[1] = {
-		["police"] = "Police Car 1",
-		["police2"] = "Police Car 2",
-		["police3"] = "Police Car 3",
+		["scpd1"] = "Police Car 1",
+		["scpd9"] = "Police Car 2",
+	--[[	["police3"] = "Police Car 3",
 		["police4"] = "Police Car 4",
 		["policeb"] = "Police Car 5",
 		["policet"] = "Police Car 6",
 		["sheriff"] = "Sheriff Car 1",
-		["sheriff2"] = "Sheriff Car 2",
+		["sheriff2"] = "Sheriff Car 2", ]]--
 
 	},
 	-- Grade 2
 	[2] = {
-		["police"] = "Police Car 1",
+        ["scpd1"] = "Crown Vic",
+		["scpd3"] = "Charger",
+        ["scpd9"] = "Crown Vic Slicktop",
+        ["scpd10"] = "Charger Slicktop",
+	--[[	["police"] = "Police Car 1",
 		["police2"] = "Police Car 2",
 		["police3"] = "Police Car 3",
 		["police4"] = "Police Car 4",
 		["policeb"] = "Police Car 5",
 		["policet"] = "Police Car 6",
 		["sheriff"] = "Sheriff Car 1",
-		["sheriff2"] = "Sheriff Car 2",
+		["sheriff2"] = "Sheriff Car 2", ]]--
 	},
 	-- Grade 3
 	[3] = {
-		["police"] = "Police Car 1",
+        ["scpd1"] = "Crown Vic",
+		["scpd3"] = "Charger",
+        ["scpd9"] = "Crown Vic Slicktop",
+        ["scpd10"] = "Charger Slicktop",
+        ["scpd16"] = "Camaro Interceptor",
+        ["20charger"] = "Hellcat Interceptor",
+        ["gtr"] = "GTR Interceptor",
+	--[[["police"] = "Police Car 1",
 		["police2"] = "Police Car 2",
 		["police3"] = "Police Car 3",
 		["police4"] = "Police Car 4",
 		["policeb"] = "Police Car 5",
 		["policet"] = "Police Car 6",
 		["sheriff"] = "Sheriff Car 1",
-		["sheriff2"] = "Sheriff Car 2",
+		["sheriff2"] = "Sheriff Car 2", ]]--
 	},
 	-- Grade 4
 	[4] = {
-		["police"] = "Police Car 1",
+        ["scpd1"] = "Crown Vic",
+		["scpd3"] = "Charger",
+        ["scpd9"] = "Crown Vic Slicktop",
+        ["scpd10"] = "Charger Slicktop",
+        ["scpd16"] = "Camaro Interceptor",
+        ["20charger"] = "Hellcat Interceptor",
+        ["gtr"] = "GTR Interceptor",
+	--[[	["police"] = "Police Car 1",
 		["police2"] = "Police Car 2",
 		["police3"] = "Police Car 3",
 		["police4"] = "Police Car 4",
 		["policeb"] = "Police Car 5",
 		["policet"] = "Police Car 6",
 		["sheriff"] = "Sheriff Car 1",
-		["sheriff2"] = "Sheriff Car 2",
+		["sheriff2"] = "Sheriff Car 2", ]]--
 	}
 }
 
@@ -394,39 +413,93 @@ Config.Items = {
 }
 
 Config.VehicleSettings = {
-    ["car1"] = { --- Model name
+    ["scpd1"] = { --- Model name
         ["extras"] = {
             ["1"] = true, -- on/off
             ["2"] = true,
             ["3"] = true,
-            ["4"] = true,
-            ["5"] = true,
-            ["6"] = true,
-            ["7"] = true,
-            ["8"] = true,
-            ["9"] = true,
-            ["10"] = true,
-            ["11"] = true,
-            ["12"] = true,
-            ["13"] = true,
+            ["4"] = false,
+            ["5"] = false,
+            ["6"] = false,
+            ["7"] = false,
+            ["8"] = false,
+            ["9"] = false,
+            ["10"] = false,
+            ["11"] = false,
+            ["12"] = false,
+            ["13"] = false,
         },
 		["livery"] = 1,
     },
-    ["car2"] = {
+    ["scpd3"] = {
         ["extras"] = {
-            ["1"] = true,
+            ["1"] = true, -- on/off
+            ["2"] = true,
+            ["3"] = true,
+            ["4"] = false,
+            ["5"] = false,
+            ["6"] = false,
+            ["7"] = false,
+            ["8"] = false,
+            ["9"] = false,
+            ["10"] = false,
+            ["11"] = false,
+            ["12"] = false,
+            ["13"] = false,
+        },
+		["livery"] = 1,
+    },
+    ["scpd9"] = { --- Model name
+        ["extras"] = {
+            ["1"] = true, -- on/off
+            ["2"] = true,
+            ["3"] = true,
+            ["4"] = false,
+            ["5"] = false,
+            ["6"] = false,
+            ["7"] = false,
+            ["8"] = false,
+            ["9"] = false,
+            ["10"] = false,
+            ["11"] = false,
+            ["12"] = false,
+            ["13"] = false,
+        },
+		["livery"] = 1,
+    },
+    ["scpd10"] = { --- Model name
+        ["extras"] = {
+            ["1"] = true, -- on/off
+            ["2"] = true,
+            ["3"] = true,
+            ["4"] = false,
+            ["5"] = false,
+            ["6"] = false,
+            ["7"] = false,
+            ["8"] = false,
+            ["9"] = false,
+            ["10"] = false,
+            ["11"] = false,
+            ["12"] = false,
+            ["13"] = false,
+        },
+		["livery"] = 1,
+    },
+    ["gtr"] = { --- Model name
+        ["extras"] = {
+            ["1"] = false, -- on/off
             ["2"] = true,
             ["3"] = true,
             ["4"] = true,
-            ["5"] = true,
+            ["5"] = false,
             ["6"] = true,
             ["7"] = true,
             ["8"] = true,
             ["9"] = true,
-            ["10"] = true,
-            ["11"] = true,
-            ["12"] = true,
-            ["13"] = true,
+            ["10"] = false,
+            ["11"] = false,
+            ["12"] = false,
+            ["13"] = false,
         },
 		["livery"] = 1,
     }
